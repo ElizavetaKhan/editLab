@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///Users/elizavetahan/Documents/JSprojects/editLab/app/App.js"],"sourcesContent":["import React from 'react';\n\n/**\n * Main component, that is connected to index.js\n */\n\nexport const App = () => {\n    return (\n        <div>\n            Hello!\n        </div>\n    );\n};\n"],"names":[],"mappings":";;;;;AAAA;;;AAMO,MAAM,MAAM;IACf,qBACI,qKAAC;kBAAI;;;;;;AAIb","debugId":null}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file:///Users/elizavetahan/Documents/JSprojects/editLab/pages/index.js"],"sourcesContent":["import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport { App } from '../app/App';\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\n\nroot.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n"],"names":[],"mappings":";;AAAA;AACA;AACA;;;;;AAEA,MAAM,OAAO,gJAAQ,CAAC,UAAU,CAAC,SAAS,cAAc,CAAC;AAEzD,KAAK,MAAM,eACT,qKAAC,8GAAK,CAAC,UAAU;cACf,cAAA,qKAAC,0GAAG","debugId":null}}]
+}
