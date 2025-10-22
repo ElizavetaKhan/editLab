@@ -12,6 +12,7 @@ self.__BUILD_MANIFEST = {
   },
   "sortedPages": [
     "/",
+    "/MainPage",
     "/_app",
     "/_error"
   ]
