@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  turbopack: {
-    root: '/Users/elizavetahan/Documents/JSprojects/editLab',
-  },
+  turbopack: {},
   compiler: {
     styledComponents: true, // Включает поддержку SSR styled-components
   },
