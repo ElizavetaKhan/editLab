@@ -22,7 +22,7 @@ const FooterSection = styled.footer`
     align-self: center;
 `;
 
-export const MainPage = () => {
+export default function MainPage () {
     const [clickNumber, setClickNumber] = useState(0);
     const [email, setEmail] = useState("");
     const [submitted, setSubmitted] = useState(false);
